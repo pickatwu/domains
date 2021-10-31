@@ -1,0 +1,23 @@
+{
+    "$origin": "pickatwu.com.",
+    "$ttl": 3600,
+    "soa": {
+        "mname": "ns1.pickatwu.com.",
+        "rname": "admin.pickatwu.com",
+        "serial": "{time}",
+        "refresh": 3600,
+        "retry": 600,
+        "expire": 604800,
+        "minimum": 86400
+    },
+    "ns": [
+        { "host": "ns1.pickatwu.com." },
+        { "host": "ns2.pickatwu.com." }
+    ],
+    "a": [
+        { "name": "@", "ttl": 400, "value": "185.199.108.153" },
+        { "name": "@", "ttl": 400, "value": "185.199.109.153" },
+        { "name": "@", "ttl": 400, "value": "185.199.110.153" },
+        { "name": "@", "ttl": 400, "value": "185.199.111.153" },
+    ]
+}
