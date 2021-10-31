@@ -2,7 +2,6 @@
 import socket, glob, json
 
 import socket
-port 53
 
 port = 53
 ip = '185.199.109.153'
